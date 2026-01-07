@@ -1,2 +1,5 @@
 # Apxe-tpgit-code-Wize-
-for code wize program
+#Problem 1- Canteen Queue Managemant System
+
+```c
+#include<std.h>
