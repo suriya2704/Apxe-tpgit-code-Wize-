@@ -29,7 +29,7 @@ int main() {
     }
 }
 ----
-***sample output***
+**sample output**
 Enter total classes: 88
 Enter classes attended: 59
 Attendance Percentage: 67.05%
