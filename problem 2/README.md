@@ -1,4 +1,5 @@
 # PROBLEM 2
+```c
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -28,11 +29,11 @@ int main() {
         printf("not elible\n");
     }
 }
-----
+---
 **sample output**
 Enter total classes: 88
 Enter classes attended: 59
 Attendance Percentage: 67.05%
 not elible
---------
+---
 
