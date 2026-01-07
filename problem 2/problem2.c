@@ -3,18 +3,18 @@
 #include <stdlib.h>
 
 int main() {
-    int totalClasses, attendedClasses;
+    float totalClasses, attendedClasses;
     float attendancePercentage;
-    int requiredClasses;
+    float requiredClasses;
 
     
     printf("Enter total classes: ");
-    scanf("%d", &totalClasses);
+    scanf("%f", &totalClasses);
 
     printf("Enter classes attended: ");
-    scanf("%d", &attendedClasses);
+    scanf("%f", &attendedClasses);
 
-    attendancePercentage = ((float)attendedClasses / totalClasses) * 100;
+    attendancePercentage = ((float)attendedClasses / (float)totalClasses) * 100;
 
     printf("\nAttendance Percentage: %.2f%%\n", attendancePercentage);
 
