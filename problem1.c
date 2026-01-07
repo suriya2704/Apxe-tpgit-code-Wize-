@@ -5,7 +5,7 @@ int main(){
      int arr[100];
      int token=1, Remaining=100,totaltoken=100;
      char tokengive;
-     printf("enter the tokengives: ");
+     printf("Enter the tokengives: ");
      scanf("%c",&tokengive);
 
        if(tokengive=='s' || tokengive=='S'){
@@ -16,6 +16,7 @@ int main(){
         Remaining--;
            printf("serving token:%d\n",token);
         printf("student waiting:%d\n",Remaining);
+        printf("______\n");
 
      }
     }
