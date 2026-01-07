@@ -3,17 +3,27 @@
 
 int main(){
      int arr[100];
-     int token=1, Remaining=100;
+     int token=1, Remaining=100,totaltoken=100;
+     char tokengive;
+     printf("enter the tokengives: ");
+     scanf("%c",&tokengive);
 
-     for (int token=1; token<=Remaining ;token++){
+       if(tokengive=='s' || tokengive=='S'){
+
+     for (int token=1; token<=totaltoken ;token++){
         
         printf("token generated :%d\n",token);
         Remaining--;
            printf("serving token:%d\n",token);
         printf("student waiting:%d\n",Remaining);
-           
+
      }
-    if(Remaining==0){
-        printf("All the tokens are souldout");
     }
+    if(tokengive=='q' || tokengive=='Q'){
+        printf("quite the token giving process\n");
+    }
+     if(Remaining==0){
+        printf("All the tokens are souldout\n");
+    }
+   
 }
